@@ -55,7 +55,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Python Programming",
+    title: "Python Programmer",
     icon: Python,
   },
 ];
