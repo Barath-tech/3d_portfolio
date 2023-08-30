@@ -12,11 +12,51 @@ const Contact = () => {
     email: "",
     message: "",
   });
+  //template_cy6vmfg
+  //service_8u6e9oe
+  //XicjxqyYOhf4caF7b
   const [loading, setLoading] = useState(false);
 
-  const handleChange = (e) => {};
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setForm({ ...form, [name]: value });
+  };
 
-  const handleSubmit = (e) => {};
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setLoading(true);
+
+    emailjs
+      .send(
+        "service_8u6e9oe",
+        "template_cy6vmfg",
+        {
+          from_name: form.name,
+          to_name: "Barath S",
+          from_email: form.email,
+          to_email: "barathsundar03@gmail.com",
+          from_message: form.message,
+        },
+        "XicjxqyYOhf4caF7b"
+      )
+      .then(
+        () => {
+          setLoading(false);
+          alert(
+            "Thank you for contacting me...I will get back to you as soon as possible"
+          );
+          setForm({
+            name: "",
+            email: "",
+            message: "",
+          });
+        },
+        (error) => {
+          console.log(error);
+          alert("Something went Wrong...Try again!!");
+        }
+      );
+  };
 
   return (
     <div
