@@ -72,18 +72,18 @@ const Works = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} text-center`}>My Works</p>
-        <h2 className={`${styles.sectionHeadText} text-center`}>Projects</h2>
+        <p className={`${styles.sectionSubText} text-center `}>My Works</p>
+        <h2 className={`${styles.sectionHeadText} text-center `}>Projects</h2>
       </motion.div>
       <div>
         <motion.p className="mt-3 text-secondary text-[17px] max-w-7xl leading-[30px]">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          My projects section showcases a diverse range of completed
+          assignments, highlighting my proficiency in various technologies.
+          Using React.js, Tailwind CSS, HTML, and traditional CSS, I've crafted
+          engaging and responsive user interfaces. Additionally, I've leveraged
+          Django and SQLite to build robust backend systems, while Node.js and
+          MongoDB have powered my dynamic web applications. These projects
+          reflect my versatility and expertise in full-stack development.
         </motion.p>
       </div>
       <div className="mt-20 gap-7 flex flex-wrap">

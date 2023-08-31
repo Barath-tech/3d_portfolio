@@ -18,10 +18,9 @@ import {
   meta,
   starbucks,
   tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
+  pizza,
+  procurement,
+  quiz,
   threejs,
   Python,
   django,
@@ -161,9 +160,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Pizza app",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that fetches the pizza details from an api and provide it to the users. The users can able to order a variety of pizzas and can able to modify the cart details like other websites.",
     tags: [
       {
         name: "react",
@@ -178,50 +177,47 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: pizza,
+    source_code_link: "https://github.com/Barath-tech/fast-react-pizza",
   },
   {
-    name: "Job IT",
+    name: "Procurement system",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application which has multiple logins such as customer and Manager, where a customer can place the orders and make changes to it. The Manager can able to  accept or decline the order in Manager login.",
     tags: [
       {
-        name: "react",
+        name: "Javascript",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "django",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "sqlite",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: procurement,
+    source_code_link: "https://github.com/Barath-tech/requirement-system",
   },
   {
-    name: "Trip Guide",
+    name: "React Quiz",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A quiz app which allows users to test their knowledge of reactjs with multiple questions of different levels.",
     tags: [
       {
-        name: "nextjs",
+        name: "reactjs",
         color: "blue-text-gradient",
       },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
+
       {
         name: "css",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: quiz,
+    source_code_link: "https://github.com/Barath-tech/React-Quiz",
   },
 ];
 

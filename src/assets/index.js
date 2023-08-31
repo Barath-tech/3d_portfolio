@@ -7,6 +7,7 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import Python from "./Python.png";
+import linkedin from "./linkedin.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -28,9 +29,9 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import pizza from "./Pizza.png";
+import procurement from "./Procurement.png";
+import quiz from "./React_quiz.png";
 
 export {
   logo,
@@ -58,9 +59,10 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
   Python,
   django,
+  linkedin,
+  pizza,
+  procurement,
+  quiz,
 };

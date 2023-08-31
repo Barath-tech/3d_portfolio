@@ -5,6 +5,9 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+import { linkedin } from "../assets";
+import { Link } from "react-router-dom";
+
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -121,6 +124,18 @@ const Contact = () => {
           >
             {loading ? "Sending..." : "Send"}
           </button>
+          <div>
+            <p className={styles.sectionSubText}>For more Details:</p>
+            <div
+              className="
+          flex flex-row justify-between 
+          items-center  w-20 h-20"
+            >
+              <a href="https://www.linkedin.com/in/barath-s-8a6997213/">
+                <img src={linkedin} />
+              </a>
+            </div>
+          </div>
         </form>
       </motion.div>
       <motion.div
