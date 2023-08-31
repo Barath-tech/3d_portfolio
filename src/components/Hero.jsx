@@ -23,8 +23,8 @@ const Hero = () => {
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100 `}>
             I'm an enthusiastic Mern Stack Developer and
-            <br className="sm:block hidden" /> I'm a Final year Engineering
-            Student.
+            <br className="sm:block hidden" /> I'm a Final year Computer Science
+            Engineering Student.
           </p>
         </div>
       </div>

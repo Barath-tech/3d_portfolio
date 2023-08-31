@@ -124,7 +124,7 @@ const Contact = () => {
           >
             {loading ? "Sending..." : "Send"}
           </button>
-          <div>
+          {/* <div>
             <p className={styles.sectionSubText}>For more Details:</p>
             <div
               className="
@@ -135,7 +135,7 @@ const Contact = () => {
                 <img src={linkedin} />
               </a>
             </div>
-          </div>
+          </div> */}
         </form>
       </motion.div>
       <motion.div
