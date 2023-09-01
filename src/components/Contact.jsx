@@ -6,7 +6,7 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 import { linkedin } from "../assets";
-import { Link } from "react-router-dom";
+import React, { Fragment } from "react";
 
 const Contact = () => {
   const formRef = useRef();
@@ -124,10 +124,10 @@ const Contact = () => {
           >
             {loading ? "Sending..." : "Send"}
           </button>
-          {/* <div>
+          <Fragment>
             <p className={styles.sectionSubText}>For more Details:</p>
             <div
-              className="
+              className=" 
           flex flex-row justify-between 
           items-center  w-20 h-20"
             >
@@ -135,7 +135,7 @@ const Contact = () => {
                 <img src={linkedin} />
               </a>
             </div>
-          </div> */}
+          </Fragment>
         </form>
       </motion.div>
       <motion.div

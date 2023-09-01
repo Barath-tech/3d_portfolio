@@ -2,6 +2,11 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 
+/**
+ * Renders a hero section on a webpage with dynamic content and animated computer graphics.
+ *
+ * @returns {JSX.Element} The rendered hero section.
+ */
 const Hero = () => {
   return (
     <section className="relative w-full h-screen mx-auto">
