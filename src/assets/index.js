@@ -31,7 +31,7 @@ import tesla from "./company/tesla.png";
 
 import pizza from "./Pizza.png";
 import procurement from "./Procurement.png";
-import quiz from "./React_quiz.png";
+import wildoasis from "./Wild_oasis.png";
 
 export {
   logo,
@@ -64,5 +64,5 @@ export {
   linkedin,
   pizza,
   procurement,
-  quiz,
+  wildoasis,
 };

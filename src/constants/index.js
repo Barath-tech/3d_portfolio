@@ -20,7 +20,7 @@ import {
   tesla,
   pizza,
   procurement,
-  quiz,
+  wildoasis,
   threejs,
   Python,
   django,
@@ -202,9 +202,9 @@ const projects = [
     source_code_link: "https://github.com/Barath-tech/requirement-system",
   },
   {
-    name: "React Quiz",
+    name: "The Wild Oasis",
     description:
-      "A quiz app which allows users to test their knowledge of reactjs with multiple questions of different levels.",
+      "This a high level hotel website which includes the analysis of the present information and it also includes new bookings and deletion of the previous bookings.",
     tags: [
       {
         name: "reactjs",
@@ -212,12 +212,12 @@ const projects = [
       },
 
       {
-        name: "css",
-        color: "pink-text-gradient",
+        name: "supabase",
+        color: "green-text-gradient",
       },
     ],
-    image: quiz,
-    source_code_link: "https://github.com/Barath-tech/React-Quiz",
+    image: wildoasis,
+    source_code_link: "https://github.com/Barath-tech/The-Wild-Oasis",
   },
 ];
 
